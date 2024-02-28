@@ -1,0 +1,160 @@
+
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content:left;
+   width:150px;
+
+    background-color: hotpink;
+   
+
+}
+.header1{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+   padding: 10%;
+   background-color:hotpink
+
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+header ul li{
+    margin: 10px;
+    padding: 15;
+    border-radius: 35px;
+}
+
+
+.logo img{
+   display: flex;
+   flex-direction: column;
+   background-color:hotpink;
+   width: 150px;
+}
+
+
+.contenido{
+width: 100%;
+max-width: 1000px;
+margin:0 auto;
+overflow: hidden;
+}
+
+
+
+#carouselExampleSlidesOnly img{
+    width:30px;
+    height:auto;
+    padding: 20px;
+}
+
+.cuerpo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: rgb(15, 117, 151);
+    
+    
+    
+}
+.cuerpo2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: rgb(15, 117, 151);
+    
+    
+}
+.cuerpo1.1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: first baseline;
+    align-content:center;
+   
+
+}
+.cuerpo2.1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: first baseline;
+    align-content:center;
+    
+
+
+}
+h3{
+    color: rgb(3, 192, 255);
+    border-radius: 35px;
+    
+    
+}
+#analisis img{
+width: 100px;
+height: 100px;
+}
+
+
+
+#beneficios{
+    margin: 50px 0 50px 10px;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%; 
+    
+}
+
+.caja{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction:column;
+    justify-content: first baseline;
+    align-content:center;
+}
+
+.caja img{
+border-radius: 50px;
+width: 80px;
+
+
+}
+
+.caja p{
+   font-size: 15px; 
+}
+
+.video{
+    margin: 100px 30px 0 100px
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:last baseline;
+    
+    width: 100%;
+    
+}
